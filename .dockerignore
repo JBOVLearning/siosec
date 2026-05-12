@@ -1,5 +1,6 @@
 vendor/
 node_modules/
+bootstrap/cache/
 public/build/
 public/hot/
 storage/app/

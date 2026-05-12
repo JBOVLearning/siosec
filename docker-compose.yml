@@ -68,7 +68,7 @@ services:
       POSTGRES_USER: ${DB_USERNAME}
       POSTGRES_PASSWORD: ${DB_PASSWORD:-secret}
     volumes:
-      - siosec-pgsql:/var/lib/postgresql/data
+      - siosec-pgsql:/var/lib/postgresql
     networks:
       - siosec
     healthcheck:
