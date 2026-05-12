@@ -1,0 +1,17 @@
+vendor/
+node_modules/
+public/build/
+public/hot/
+storage/app/
+storage/logs/
+storage/framework/cache/
+.env
+.env.*
+!.env.example
+.git/
+.github/
+.claude/
+tests/
+*.md
+.phpunit.cache
+.phpunit.result.cache
